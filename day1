@@ -1,1 +1,33 @@
+##############            DSA day1       ################
+##############        Language C++        ################
 
+#######################   DATA TYPES   ##########################
+
+#include<iostream>
+using namespace std;
+int main(){
+    // integer data type
+    int age=19;
+    // character data type
+    char grade ='A';
+    
+    // cout << age << endl;
+    // cout << grade << endl;
+
+    // float data type
+    float PI= 3.14f;
+    //  cout << PI << endl;
+
+    // boolean data  type
+    bool s=true;
+    //  cout << s << endl;
+
+    double sh=100.999;
+    // cout << sh << endl;
+
+
+    return 0;
+
+}
+
+######################################################################################################S
