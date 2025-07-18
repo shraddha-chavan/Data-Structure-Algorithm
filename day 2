@@ -1,1 +1,35 @@
+################################# OPERATORS IN C++ ###############################################
+
+#include <iostream>
+using namespace std;
+int main(){
+    int a=10 , b=5;
+    // Arithmetic operators 
+    cout<<"sum =" <<(a+b)<<endl;
+    cout<<"substract =" <<(a-b)<<endl;
+    cout<<"multiple =" << (a*b)<< endl;
+    cout<<"divisiom =" << (a/b)<< endl;
+    cout<<"modulus =" << (a%b)<<endl;
+    cout<< "decimal division using type casting ="<<(5/(double)2 )<< endl ;
+
+    //  Relational Operators
+    cout<<"less than=" <<(3<5)<<endl;
+    cout<<"greater than ="<<(3>5)<<endl;
+    cout<<"less than equal to ="<<(3<=5)<<endl;
+    cout<<"greater than equal to ="<<(3>=5)<<endl;
+    cout<<"equal to ="<<(3==3)<<endl;
+    cout<<"not equal ="<<(3!=5)<<endl;
+    cout<<"not equal ="<<(3!=5)<<endl;
+
+    // Logical Operators
+    cout<<"NOT operator = "<<!(3>1)<<endl;
+    cout<<"OR operator = "<<((3>1)|| (3<1))<<endl;
+    
+
+    return 0;
+}
+
+#######################################################################################################
+
+
 
