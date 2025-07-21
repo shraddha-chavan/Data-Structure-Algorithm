@@ -112,4 +112,23 @@ int main(){
 
 ###################################################################################################
 
+################## WITH ASCII CHARACTERS LOWERCASE & UPPERCASE ####################################
+
+#include<iostream>
+using namespace std;
+int main(){
+    char ch;
+    cout<<"Enter a Character="<<endl;
+    cin>>ch;
+    if(ch>=65&&ch<=90){
+        cout<<"Is Uppercase"<<endl;
+    }
+    else{
+        cout<<"Is Lowercase"<<endl;
+
+    }
+    return 0;
+}
+
+####################################################################################################
 
