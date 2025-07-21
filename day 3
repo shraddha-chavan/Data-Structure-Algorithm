@@ -75,3 +75,41 @@ int main(){
     }
 }
 ###########################################################################################################
+
+############## STUDENT MARKS GRADE CODE ###################################################################
+
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"Enter marks of student=\n";
+    cin>>n;
+
+    if(n>=90){
+        cout<<"Grade A"<<endl;
+        cout<<"Excellet"<<endl;
+
+    }
+    else if(n>=80){
+        cout<<"Grade B"<<endl;
+        cout<<"Very Good"<<endl;
+    }
+    else if(n>=70){
+        cout<<"Grade C"<<endl;
+        cout<<"Good"<<endl;
+    }
+    else if(n>=60){
+        cout<<"Grade D"<<endl;
+        cout<<"Need Improvement"<<endl;
+    }
+    else{
+        cout<<"Fail"<<endl;
+    }
+    
+
+    return 0;
+}
+
+###################################################################################################
+
+
