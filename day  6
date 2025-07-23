@@ -35,3 +35,26 @@ int main(){
     return 0;
 }
 ################################################################
+
+########## USING WHILE LOOP SUM OF ODD No. #####################
+
+#include<iostream>
+using namespace std;
+int main(){
+    int i=1, n=5,sum=0;
+    while (i<=n){
+
+        if(i%2!=0){
+            sum+=i;
+        }
+        i++;
+    }
+        cout<<"sum of no."<<sum<<endl;
+        return 0;
+
+    }
+ ########################################################################   
+    
+
+
+    
