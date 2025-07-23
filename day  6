@@ -20,3 +20,18 @@ int main(){
 }
 
 ###############################################################
+
+############# TERNARY STATEMENTS ##############################
+
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"Enter no."<<endl;
+    cin>> n;
+    cout<< (n>=0 ? "NO. is postive":"NO. is negative")<<endl;
+
+
+    return 0;
+}
+################################################################
