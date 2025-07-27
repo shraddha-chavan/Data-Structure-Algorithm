@@ -17,3 +17,18 @@ int main(){
 }
 
 ###################################################################
+######### FUNCTION DEFINITION & FUNCTION CALL #####################
+
+#include<iostream>
+using namespace std;
+// function defination
+void printHello(){
+    cout<<"hello shraddha\n";
+}
+int main(){
+    // function call/invoke
+    printHello();
+    return 0;
+}
+
+#####################################################################
