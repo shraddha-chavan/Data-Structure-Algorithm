@@ -1,0 +1,56 @@
+##################### DAY 19 #####################
+
+  ############# VECTOR FUNCTION #############
+
+
+
+  #include<iostream>
+#include<vector>
+using namespace std;
+
+int main(){
+    vector <char> vec={'a','b','c','d','e'};
+
+  //1)) size function 
+
+    cout<<"size ="<<vec.size()<<endl;
+
+    for (char val:vec){//for each loop
+        cout<<val<<endl;
+    }
+    return 0;
+
+
+
+}
+
+
+//2)) push-back function
+
+int main(){
+    vector<int>vec;
+
+    cout<<"size =" <<vec.size() <<endl;
+    vec.push_back(25);
+    cout<<"after push back size ="<<vec.size()<<endl;
+
+    for (char val:vec){//for each loop
+        cout<<val<<endl;
+    }
+    return 0;
+
+
+
+}
+
+
+//3))  pop - back function => it delete the  last element from vector
+
+//4)) front => it give's the first element 
+
+//5)) back=> it returns the last value  
+
+//6)) at => it give's the index value 
+
+#################################################################
+
